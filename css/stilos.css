@@ -1,0 +1,48 @@
+html, body, section{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    background-color: #EAEFF5;
+
+}
+.form-titulo {
+    margin-bottom: 0 !important;
+}
+.contenido {
+    padding-top: 60px;
+}
+.tarjeta{
+    background-color: white;
+    padding:0 !important;
+    margin: 1;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    
+}
+
+.tarjeta .imagen{
+    width: 100%;
+    padding:0 !important;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.tarjeta .imagen img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;   
+}
+
+.post  {
+    text-decoration: none;
+}
+.tarjeta .titulo{
+    font-size: 1.15em;
+    font-weight: bold;
+  
+}
